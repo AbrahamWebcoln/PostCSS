@@ -8,7 +8,9 @@ module.exports = postcss.plugin('postcss-abaracus', function(opts) {
     return function(root, result) {
 
         root.walkRules(function(rule) {
-            // We'll put more code here in a moment…
+            rule.walkDecls('overflow', function(decl) {
+                // We work with each `decl` object here.
+            });
         });
 
     };
