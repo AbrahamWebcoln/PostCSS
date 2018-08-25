@@ -1,3 +1,3 @@
 # PostCSS
-First PostCSS Plugin, following James Steinback
+First PostCSS Plugin, following James Steinback's post.
 
