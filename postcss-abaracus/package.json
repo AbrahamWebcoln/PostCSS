@@ -1,0 +1,38 @@
+{
+  "name": "postcss-abaracus",
+  "version": "0.0.0",
+  "description": "PostCSS plugin that follows James Steinbach's Post",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "Abe"
+  ],
+  "author": "Abe <abaracus.coleman@gmail.com>",
+  "license": "MIT",
+  "repository": "Abaracus/postcss-abaracus",
+  "bugs": {
+    "url": "https://github.com/Abaracus/postcss-abaracus/issues"
+  },
+  "homepage": "https://github.com/Abaracus/postcss-abaracus",
+  "dependencies": {
+    "postcss": "^6.0.16"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^22.4.2"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
